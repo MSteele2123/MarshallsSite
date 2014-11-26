@@ -1,0 +1,111 @@
+/*Header and nav*/
+
+body {
+  	width:100%;
+  	margin:0;
+  	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	font-size: 100%;
+}
+
+.logo {
+	background: #7F1A0F;
+}
+
+header ul li {
+	font-size:1.5em;
+  	padding: 20px;
+    width: 125px;
+    height: 125px;
+  	text-align: center;
+  	background-color:#74C8E5;
+  	margin:0 1em;
+  	transition: 1s;
+  	position: relative;
+  	border-radius: 50%;
+    display: inline-block;
+}
+
+ul li a {
+  	width: 100%;
+  	position: relative;
+    top: 37%;
+}
+
+.top-bar {
+	display:flex;
+	background-color:#5B7F78;
+	flex-wrap:nowrap;
+	padding:30px;
+}
+
+ header ul {
+	list-style-type:none;
+	margin: 0;
+}
+
+header ul li:hover:not(.logo) {
+  	background-color:#37d;
+}
+
+a {
+  text-decoration:none;
+  color:#fff;
+  display: inline-block;
+  font-weight:bold;
+}
+
+/*Main-Content*/
+.content-container {
+	background: #37a;
+	height: 100%;
+}
+
+.content-container div {
+	margin: 0;
+	padding: 1%;
+	display: inline-block;
+}
+
+.Content-row1 {
+	background:#37a;
+	width: 34%%;
+	color: #fff;
+}
+
+.Content-row1 h3 {
+}
+
+.Content-row1 p {
+}
+
+.Content-row2 {
+	width: 30%;
+	float: left;
+	background:#37a;
+	color: #fff;
+}
+
+.Content-row2 h3 {
+}
+
+.Content-row2 p {
+
+}
+
+.contact-ul {
+	float: right;
+	width: 30%;
+	background:#37a;
+	color: #fff;
+}
+
+.contact-ul ul li {
+
+}
+
+
+
+
+
+
+
